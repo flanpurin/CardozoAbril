@@ -18,4 +18,4 @@ fetch(url)
 
       Edad: ${personaje.age} </div>`;
     });
-  });
+  }); 

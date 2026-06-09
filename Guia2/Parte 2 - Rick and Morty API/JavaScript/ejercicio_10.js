@@ -1,15 +1,3 @@
-/* Dashboard completo
-Mostrá un resumen completo de los personajes de la primera página.
-El HTML debe mostrar todos estos datos:
-
-Total de personajes en la primera página
-Cuántos están vivos, muertos y con estado desconocido (filter para cada uno)
-El personaje con más episodios — nombre y cantidad
-El personaje con menos episodios — nombre y cantidad
-Lista de todas las especies encontradas (sin repetir)
-Métodos
-filter sort reduce map
-Para especies únicas: new Set(array) puede ayudar */
 const url = "https://rickandmortyapi.com/api/character";
 const resultado = document.getElementById("resultado");
 
